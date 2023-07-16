@@ -1,0 +1,133 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: medium;
+font-weight: 600;
+}
+#maincontainer{
+    margin: auto;
+    width: 700px;
+    padding-top: 30px;
+    height: 490px;
+}
+
+#logo{
+    width: 90%;
+    height: 70px;
+margin: auto;
+padding-left: 30px;
+}
+#form{
+    box-shadow: 2px 2px 12px #888888;
+    margin: auto;
+width: 400px;
+height: 400px;
+display: flex;
+justify-content: center;
+padding-top: 30px;
+border-radius: 7px;
+background-color: white;
+line-height: 30px;
+}
+
+#input{
+    width: 360px;
+    height: 26px;
+border-radius:1px;
+border-width:1px;
+border-color:gray;
+}
+#button{
+    margin-top: 20px;
+    width: 310px;  
+    display:flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-color:#0a66c2; 
+    color: white;
+    height: 42px;
+    font-size: medium;
+    border-style: none;
+    font-weight: 500;
+    margin-left: 33px;
+}
+#button:hover{
+    background-color:#064c92; 
+}
+#heading{
+    margin: auto;
+    width: 79%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-size:xx-large;
+    font-weight: 500;
+   margin-top: -20px;
+   margin-bottom: 20px;
+}
+#agreement{
+   margin: auto;
+   width: 350px;
+   text-align: center;
+   line-height: 15px;
+}
+#agreement p{
+    font-size: 13px;
+    color: rgb(78, 77, 77);
+}
+#agreement p a{
+    text-decoration: none;
+    font-size: 13px;
+    color:#0a66c2;
+}
+#google{
+    margin-top: 20px;
+    width: 310px;  
+    display:flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-color:white; 
+    color: white;
+    height: 42px;
+    font-size: medium;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+    font-weight: 500;
+    margin-left: 33px;
+    color:rgb(80, 79, 79);
+    font-weight: 600;
+    padding-top: 7px;
+}
+#google img{
+    height: 30px;
+   margin-top: -3px;
+}
+#signin{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+#signin a{
+    text-decoration: none;
+    color:#0a66c2;
+    font-weight: 500;
+}
+#showhide a{
+   text-decoration: none;
+position:relative;
+left: 320px;
+bottom: 33px;
+display: inline-block;
+border-color: black;
+border-style: solid;
+}
+#hr{
+margin-top: 15px;
+border-top: 0.5px;
+border-color: gray;
+border-top-style: solid;
+}
+label{
+	font-weight:550;
+	color:black;
+}
