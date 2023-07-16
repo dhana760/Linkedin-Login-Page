@@ -55,6 +55,7 @@ border-color:gray;
 }
 #heading{
     margin: auto;
+	font-size:large;
     width: 79%;
     height: 50px;
     display: flex;
