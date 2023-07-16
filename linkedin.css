@@ -55,14 +55,15 @@ border-color:gray;
 }
 #heading{
     margin: auto;
-	font-size:large;
     width: 79%;
     height: 50px;
     display: flex;
     justify-content: center;
-font-weight:500;
    margin-top: -20px;
    margin-bottom: 20px;
+}
+#heading h1{
+	font-size:large;
 }
 #agreement{
    margin: auto;
