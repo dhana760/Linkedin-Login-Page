@@ -3,6 +3,8 @@
 font-size: medium;
 font-weight: 600;
 }
+@media only screen and (max-width: 1500px) and (min-width: 280px)
+{
 #maincontainer{
     margin: auto;
     width: 700px;
@@ -131,4 +133,5 @@ border-top-style: solid;
 label{
 	font-weight:550;
 	color:black;
+}
 }
